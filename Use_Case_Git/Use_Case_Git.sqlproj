@@ -196,4 +196,7 @@
     <None Include="Schema-Model\Person\Tables\Person.sql" />
     <None Include="Schema-Model\Security\Schemas\Person.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Programmable Objects\Person\Stored Procedures\usp_GetFirstName.sql" />
+  </ItemGroup>
 </Project>
