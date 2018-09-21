@@ -181,6 +181,7 @@ Table=[Person].[AddressType];
     <Folder Include="Schema-Model\Person\Tables\" />
     <Folder Include="Schema-Model\Security\" />
     <Folder Include="Schema-Model\Security\Schemas\" />
+    <Folder Include="Migrations\1.1.1-Changes" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Pre-Deployment\01_Create_Database.sql" />
@@ -206,5 +207,8 @@ Table=[Person].[AddressType];
   </ItemGroup>
   <ItemGroup>
     <None Include="Migrations\1.1.0-Changes\002_20180921-0913_Brian.McRae.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrations\1.1.1-Changes\001_20180921-0959_Brian.McRae.sql" />
   </ItemGroup>
 </Project>
